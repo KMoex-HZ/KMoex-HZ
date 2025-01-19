@@ -30,12 +30,12 @@ Welcome to my GitHub profile! I'm a passionate IT enthusiast, specializing in **
 ---
 
 ## 🌟 Projects
-### [MyPizza Website]
+### MyPizza Website
 An e-commerce platform for ordering customizable pizzas. 
 - Tech Stack: HTML, CSS, JavaScript, and Node.js
 - Features: Real-time order tracking, user authentication, and secure payment integration.
 
-### [Interactive Quiz Application with Tkinter)
+### Interactive Quiz Application with Tkinter
 Collaboratively developed an interactive quiz application using Python and Tkinter as the GUI framework. 
 - Tools: Python, Tkinter, Github, Visual Studio Code.
 
