@@ -48,8 +48,8 @@ Collaboratively developed an interactive quiz application using Python and Tkint
 ---
 
 ## 💬 Let's Connect!
-- 🌐 [Portfolio Website]([https://username.github.io](https://kmoex-hz.github.io/Khairunnisa.github.io/index.html))
-- 💼 [LinkedIn]([https://linkedin.com/in/khairunnisa-maharani](https://www.linkedin.com/in/khnrni/))
+- 🌐 [Portfolio Website](https://kmoex-hz.github.io/Khairunnisa.github.io/index.html)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/khnrni/)  
 - 📧 Email: khrnnsmaharani@gmail.com
 
 ---
