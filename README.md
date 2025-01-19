@@ -5,17 +5,17 @@ Welcome to my GitHub profile! I'm a passionate IT enthusiast, specializing in **
 ---
 
 ## 🚀 About Me
-- 🎓 3rd Semester student at Institut Teknologi Sumatera (ITERA).
+- 🎓 3rd Semester Data Science student at Institut Teknologi Sumatera (ITERA).
 - 🏅 Awarded **Gold Medalist in English Olympiad (KSPI 2024)**.
 - 🌏 Supporter of **Sustainable Development Goals (SDGs)**, especially in **Equality** and **Youth Empowerment**.
-- 💻 Certified **Microsoft Azure AI Specialist** via Talenta AI Indonesia.
+- 💻 Certified **Best Graduate of Multimedia Vocational School** SMKN 1 Bandar Lampung.
 - 🏆 Achieved **1st Place** in a piano competition (2016, Novotel).
 
 ---
 
 ## 🔧 Skills & Tools
 ### Programming Languages:
-- Python, C++, JavaScript
+- Python, C++, JavaScript, HTML, CSS, R, SQL
 
 ### Tools & Platforms:
 - Microsoft Azure
@@ -35,22 +35,22 @@ An e-commerce platform for ordering customizable pizzas.
 - Tech Stack: HTML, CSS, JavaScript, and Node.js
 - Features: Real-time order tracking, user authentication, and secure payment integration.
 
-### [KILAS: Data Science Awareness Film](https://github.com/username/KILAS)
-Short film promoting the role of Data Scientists in solving real-world problems. 
-- Tools: Python, Tableau, and Premiere Pro.
+### [Interactive Quiz Application with Tkinter)
+Collaboratively developed an interactive quiz application using Python and Tkinter as the GUI framework. 
+- Tools: Python, Tkinter, Github, Visual Studio Code.
 
 ---
 
 ## 📚 Certifications
 - **Microsoft Azure AI Fundamentals** – Microsoft & Talenta AI Indonesia
-- **Pervasive Computing Fundamentals** – Certified by ITERA
+- **Machine Learning For Beginners** - Dicoding Indonesia
 
 ---
 
 ## 💬 Let's Connect!
-- 🌐 [Portfolio Website](https://username.github.io)
-- 💼 [LinkedIn](https://linkedin.com/in/khairunnisa-maharani)
-- 📧 Email: khairunnisa.maharani@example.com
+- 🌐 [Portfolio Website]([https://username.github.io](https://kmoex-hz.github.io/Khairunnisa.github.io/index.html))
+- 💼 [LinkedIn]([https://linkedin.com/in/khairunnisa-maharani](https://www.linkedin.com/in/khnrni/))
+- 📧 Email: khrnnsmaharani@gmail.com
 
 ---
 
