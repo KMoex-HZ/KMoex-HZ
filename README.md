@@ -30,7 +30,7 @@ Welcome to my GitHub profile! I'm a passionate IT enthusiast, specializing in **
 ---
 
 ## 🌟 Projects
-### [MyPizza Website]((https://github.com/username/MyPizza](https://github.com/khn-hnry/Basic-Web-Submission))
+### [MyPizza Website]((https://github.com/khn-hnry/Basic-Web-Submission)
 An e-commerce platform for ordering customizable pizzas. 
 - Tech Stack: HTML, CSS, JavaScript, and Node.js
 - Features: Real-time order tracking, user authentication, and secure payment integration.
