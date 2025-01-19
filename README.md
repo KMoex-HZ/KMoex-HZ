@@ -5,7 +5,7 @@ Welcome to my GitHub profile! I'm a passionate IT enthusiast, specializing in **
 ---
 
 ## 🚀 About Me
-- 🎓 3rd Semester Data Science student at Institut Teknologi Sumatera (ITERA).
+- 🎓 4th Semester Data Science student at Institut Teknologi Sumatera (ITERA).
 - 🏅 Awarded **Gold Medalist in English Olympiad (KSPI 2024)**.
 - 🌏 Supporter of **Sustainable Development Goals (SDGs)**, especially in **Equality** and **Youth Empowerment**.
 - 💻 Certified **Best Graduate of Multimedia Vocational School** SMKN 1 Bandar Lampung.
