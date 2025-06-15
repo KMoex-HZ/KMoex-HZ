@@ -62,7 +62,7 @@
 
 ## 🏆 Featured Projects
 
-<div align="center">
+<div align="left">
 
 ### 🌊 [Flood Risk Prediction System](https://github.com/KMoex-HZ/Prediksi-Banjir)
 **XGBoost | Streamlit | Machine Learning**
@@ -88,6 +88,11 @@
 - Feature engineering on demographic and study preparation data
 - Production-ready model deployment
 
+### 🤖 [Rock-Paper-Scissors Classification](https://github.com/KMoex-HZ/ML-rockpaperscissors)
+**Computer Vision | CNN | TensorFlow**
+- Membangun model klasifikasi gambar untuk mengenali gestur tangan Batu, Gunting, Kertas dengan akurasi di atas 96%.
+- Melatih Convolutional Neural Network (CNN) menggunakan dataset dari Dicoding dengan teknik augmentasi data untuk mencegah overfitting.
+- Berhasil diselesaikan sebagai proyek akhir untuk kelas "Belajar Machine Learning untuk Pemula" di Dicoding.
 </div>
 
 ---
