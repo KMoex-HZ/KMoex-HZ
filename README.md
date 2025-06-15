@@ -1,7 +1,7 @@
 # Hi there, I'm Khairunnisa Maharani! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins+Code&size=24&pause=1000&color=722d4a&center=true&vCenter=true&width=600&lines=Data+Scientist+%7C+ML+Engineer;Turning+Data+into+Insights;Building+Intelligent+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins+Code&size=24&pause=1000&color=5ce1e6&center=true&vCenter=true&width=600&lines=Data+Scientist+%7C+ML+Engineer;Turning+Data+into+Insights;Building+Intelligent+Solutions" alt="Typing SVG" />
 </div>
 
 <div align="center">
