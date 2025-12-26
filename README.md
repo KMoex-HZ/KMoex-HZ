@@ -48,18 +48,14 @@ Currently serving as an **Assistant Lecturer** while building enterprise-grade d
 
 ### 📊 Github Analytics
 
-<p align="left">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=KMoex-HZ&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide=stars,issues,contribs" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KMoex-HZ&layout=compact&theme=radical&langs_count=6" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KMoex-HZ&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KMoex-HZ&layout=compact&theme=radical&langs_count=6)
 
 ---
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/khnrni/">
-    <img src="https://img.shields.io/badge/Connect_on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:khairunnisa.123450071@student.itera.ac.id">
-    <img src="https://img.shields.io/badge/Send_an-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khnrni/)
+[![Email](https://img.shields.io/badge/Send_an-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khairunnisa.123450071@student.itera.ac.id)
+
+</div>
