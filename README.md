@@ -1,4 +1,4 @@
-# Hi, I'm Khairunnisa Maharani (Caelan).
+# Hi, I'm Khairunnisa Maharani.
 
 ### 🎓 Data Science Undergraduate @ ITERA | 🏆 Pertamina Sobat Bumi Scholar
 
