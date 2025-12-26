@@ -2,9 +2,8 @@
 
 ### 🎓 Data Science Undergraduate @ ITERA | 🏆 Pertamina Sobat Bumi Scholar
 
-A data enthusiast focusing on **Data Engineering**, **Statistical Computing**, and **Machine Learning**. I bridge the gap between complex mathematical theory and scalable software solutions.
-
-Currently serving as an **Assistant Lecturer** while building enterprise-grade data architectures and optimization models.
+A data science undergraduate with a strong interest in **Business Intelligence**, **Data Analytics**, and **data-driven reporting**. 
+Experienced in transforming raw institutional data into structured reports and dashboards to support decision-making.
 
 ---
 
