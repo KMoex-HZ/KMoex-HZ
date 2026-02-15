@@ -1,60 +1,30 @@
-# Hi, I'm Khairunnisa Maharani.
+# Caelan Zhou
 
-### 🎓 Data Science Undergraduate @ ITERA | 🏆 Pertamina Sobat Bumi Scholar
+### Data Engineer | Cloud Infrastructure & ETL Automation
 
-A data science undergraduate with a strong interest in **Business Intelligence**, **Data Analytics**, and **data-driven reporting**. 
-Experienced in transforming raw institutional data into structured reports and dashboards to support decision-making.
+Specialized in building robust, containerized data pipelines and data warehousing solutions.
+Focusing on scalability, clean architecture, and automated orchestration.
 
 ---
 
-### 🛠️ Technical Proficiency
+### 🛠️ Core Engineering Stack
 
-| Domain | Stack & Tools |
+| Domain | Technologies |
 | :--- | :--- |
-| **Data Engineering** | ![SQL Server](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![SSIS](https://img.shields.io/badge/-SSIS-00599C?style=flat&logo=microsoft&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white) ![ETL](https://img.shields.io/badge/-ETL_Pipelines-black?style=flat) |
-| **Data Science & ML** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) |
-| **Statistics & R** | ![R](https://img.shields.io/badge/-R_Language-276DC3?style=flat&logo=r&logoColor=white) ![Tidyverse](https://img.shields.io/badge/-Tidyverse-276DC3?style=flat&logo=r&logoColor=white) ![Queueing Theory](https://img.shields.io/badge/-Queueing_Theory-lightgrey?style=flat) |
-| **Visualization** | ![Power BI](https://img.shields.io/badge/-Power_BI-F2C811?style=flat&logo=power-bi&logoColor=black) ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white) ![Matplotlib](https://img.shields.io/badge/-Matplotlib-013243?style=flat&logo=python&logoColor=white) |
+| **Orchestration & Containerization** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Airflow](https://img.shields.io/badge/-Apache_Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) |
+| **Data Warehousing & SQL** | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![BigQuery](https://img.shields.io/badge/-BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white) |
+| **Language & Scripting** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
 
 ---
 
-### 🚀 Selected "Big Impact" Projects
+### 🚀 Featured Engineering Projects
 
-#### 🏗️ [LPMPP Data Mart & Warehouse](https://github.com/KMoex-HZ/LPMPP-Data-Warehouse-Project)
-> *Engineering | SQL Server | SSIS | Kimball Methodology*
-* **Role:** Principal Engineer & Team Lead.
-* **Impact:** Designed the central data architecture for ITERA's Quality Assurance Institute. Built end-to-end ETL pipelines using SSIS to integrate scattered institutional data into a unified Star Schema, enabling real-time KPI tracking for Intellectual Property data.
-
-#### 🧮 [Canteen Queue Optimization & Simulation](https://github.com/KMoex-HZ/Canteen-Queue-Simulation-R)
-> *Operations Research | R | Statistical Simulation*
-* **Role:** Simulation Logic Developer.
-* **Impact:** Solved chronic bottleneck issues at the campus canteen using Queueing Theory. Developed a custom iterative simulation algorithm in R that identified the optimal server configuration, potentially reducing student waiting time by **40%**.
-
-#### 🌊 [Flood Risk Prediction System](https://github.com/KMoex-HZ/Prediksi-Banjir)
-> *Machine Learning | XGBoost | Streamlit*
-* **Impact:** Developed a predictive model with **RMSE 0.0060** using XGBoost to assess environmental risks. This project was a key portfolio piece in securing the **Pertamina Foundation Scholarship**.
-
+#### 🧱 [Automated Market Data Ingestion Pipeline](https://github.com/yourusername/market-ingestion-pipeline)
+> *Docker | Apache Airflow | PostgreSQL | Python*
+* **Architecture:** Designed a fault-tolerant ETL pipeline to ingest real-time financial data.
+* **Key Tech:** Implemented custom Airflow DAGs for hourly scheduling with automated retries and containerized the entire environment using Docker Compose for portability.
 ---
 
-### 🏅 Honors & Experience
-
-* **Scholarship:** Recipient of **Pertamina Sobat Bumi Scholarship** (Prestigious National Grant).
-* **Experience:** Assistant Lecturer at Institut Teknologi Sumatera (2024).
-* **Achievement:** Silver Medal Mathematics, Puskanas (2024).
-* **Certification:** Microsoft Azure AI Fundamentals & AWS Cloud Practitioner.
-
----
-
-### 📊 GitHub Analytics
-
-<p align="center">
-  <img 
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KMoex-HZ&theme=radical"
-    height="170"
-  />
-  <img 
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KMoex-HZ&theme=radical"
-    height="170"
-  />
+<p align="left">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KMoex-HZ&theme=radical&hide_border=true" height="150" />
 </p>
-
