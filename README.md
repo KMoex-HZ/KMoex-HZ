@@ -19,6 +19,11 @@ Focusing on scalability, clean architecture, and automated orchestration.
 
 ### 🚀 Featured Engineering Projects
 
+#### 🚖 [NYC Taxi End-to-End Data Pipeline](https://www.google.com/search?q=https://github.com/KMoex-HZ/nyc-taxi-pipeline-spark-airflow)
+> *Apache Spark | Apache Airflow | MinIO (S3) | PostgreSQL | Great Expectations*
+* **Architecture:** Engineered a scalable Lakehouse-style pipeline to process **2.9M+ raw records** from NYC Open Data.
+* **Key Tech:** Implemented **distributed data processing** using a Spark Master-Worker cluster and integrated **automated data quality guardrails** with Great Expectations to ensure 99% data integrity before warehouse loading.
+
 #### 🇧🇷 [Olist E-Commerce Data Warehouse](https://github.com/KMoex-HZ/olist-analytics-pipeline)
 > *dbt Core | PostgreSQL | Docker | Dimensional Modeling*
 * **Architecture:** Built an end-to-end ELT pipeline transforming raw CSV data into a business-ready **Star Schema** Data Warehouse.
