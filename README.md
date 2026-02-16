@@ -35,6 +35,11 @@ Focusing on scalability, clean architecture, and automated orchestration.
 * **Architecture:** Designed a fault-tolerant ETL pipeline to ingest real-time financial data.
 * **Key Tech:** Implemented custom Airflow DAGs for hourly scheduling with automated retries and containerized the entire environment using Docker Compose for portability.
 
+#### 🏫 [LPMPP Institutional Data Mart](https://github.com/KMoex-HZ/LPMPP-Data-Warehouse-Project)
+> *Azure VM | SSIS | SQL Server | Kimball Dimensional Modeling*
+* **Role:** **Principal Data Engineer & Team Lead.** Led a team of 4 to build an end-to-end Data Warehouse for ITERA's Quality Assurance Institute.
+* **Key Tech:** Designed a **Star Schema** for Intellectual Property tracking and engineered complex **SSIS packages** for ETL orchestration on Azure cloud infrastructure.
+
 ---
 
 <p align="left">
