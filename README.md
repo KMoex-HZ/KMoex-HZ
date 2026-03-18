@@ -25,8 +25,20 @@ Focusing on scalability, reproducibility, and clean architecture across data and
 
 * **Architecture:** Designed a **clinically-aligned deep learning pipeline** for glaucoma detection using EfficientNet with **quality-aware loss engineering** and strict **patient-level data partitioning (zero leakage)**.
 * **Key Engineering:** Implemented **custom WeightedQualityBCE loss**, CLAHE-based preprocessing in LAB color space, and full **experiment reproducibility using Docker + DVC + fixed seeds**.
-* **Impact:** Achieved **ROC-AUC 0.9801** on blind test set, with performance exceeding benchmarks reported in fundus-based screening literature.
-* **MLOps Mindset:** End-to-end reproducible pipeline (data → training → evaluation → explainability) with **Grad-CAM interpretability for clinical validation**.
+* **Impact:** Achieved **ROC-AUC 0.9801** on blind test set, exceeding benchmarks in fundus-based screening literature.
+* **MLOps Mindset:** End-to-end reproducible ML pipeline with **Grad-CAM interpretability for clinical validation**.
+
+---
+
+#### 🛒 [GlowCart — Real-Time E-commerce Data Platform](https://github.com/KMoex-HZ/glowcart)
+> *Kafka | Spark | dbt | Airflow | FastAPI | DuckDB | Docker*
+
+* **Architecture:** Engineered a **real-time lakehouse data platform** using **Medallion Architecture (Bronze → Silver → Gold)** with Kafka-based streaming ingestion.
+* **Data Flow:** Streaming events → Kafka → Parquet storage → PySpark transformations → dbt models → FastAPI analytics layer → BI dashboard.
+* **Key Engineering:** Implemented **event-driven pipeline (10,000+ simulated events)**, distributed processing with Spark, and **modular SQL transformations with dbt including automated data quality tests**.
+* **Orchestration:** Designed an **Airflow DAG (6-task pipeline)** for scheduled execution and monitoring.
+* **Serving Layer:** Built analytics API with FastAPI + DuckDB powering real-time endpoints (revenue, funnel, traffic, top products).
+* **Impact:** Simulates a **production-grade Indonesian e-commerce analytics system** with full-stack ownership from ingestion to dashboard.
 
 ---
 
@@ -34,8 +46,8 @@ Focusing on scalability, reproducibility, and clean architecture across data and
 > *Dagster | dbt Core | DuckDB | Soda Core | GitHub Actions*
 ![CI/CD Pipeline](https://github.com/KMoex-HZ/modern-data-platform-dagster/actions/workflows/ci_cd.yml/badge.svg)
 
-* **Architecture:** Built a production-grade **Modern Data Stack (MDS)** with **SCD Type 2 history tracking** and strict data contracts.
-* **Key Engineering:** Fully automated **CI/CD pipeline**, modular transformations with Dagster, and integrated **data quality enforcement using Soda Core**.
+* **Architecture:** Built a production-grade **Modern Data Stack (MDS)** with SCD Type 2 history tracking and strict data contracts.
+* **Key Engineering:** Fully automated CI/CD pipeline, modular transformations, and data quality enforcement.
 
 ---
 
@@ -43,31 +55,31 @@ Focusing on scalability, reproducibility, and clean architecture across data and
 > *Apache Spark | Apache Airflow | MinIO | PostgreSQL | Great Expectations*
 
 * **Architecture:** Engineered a scalable pipeline processing **2.9M+ records** using distributed Spark clusters.
-* **Key Engineering:** Integrated **automated data validation (Great Expectations)** and designed a lakehouse-style ingestion flow.
+* **Key Engineering:** Integrated automated data validation and lakehouse ingestion flow.
 
 ---
 
 #### 🇧🇷 [Olist E-Commerce Data Warehouse](https://github.com/KMoex-HZ/olist-analytics-pipeline)
 > *dbt Core | PostgreSQL | Docker*
 
-* **Architecture:** Developed a **Star Schema warehouse** for analytics-ready reporting.
-* **Key Engineering:** Modular SQL transformations with dbt, including testing, lineage, and documentation.
+* **Architecture:** Developed a Star Schema warehouse for analytics-ready reporting.
+* **Key Engineering:** Modular transformations with dbt, including testing and lineage.
 
 ---
 
 #### 🧱 [Automated Market Data Ingestion Pipeline](https://github.com/KMoex-HZ/market-ingestion-pipeline)
 > *Docker | Apache Airflow | PostgreSQL | Python*
 
-* **Architecture:** Built a fault-tolerant ETL system for real-time financial ingestion.
-* **Key Engineering:** Custom Airflow DAGs with retry logic and containerized deployment.
+* **Architecture:** Built a fault-tolerant ETL system for real-time ingestion.
+* **Key Engineering:** Custom DAGs with retry logic and containerized deployment.
 
 ---
 
 #### 🏫 [LPMPP Institutional Data Warehouse](https://github.com/KMoex-HZ/LPMPP-Data-Warehouse-Project)
 > *Azure | SSIS | SQL Server*
 
-* **Role:** Principal Data Engineer & Team Lead
-* **Impact:** Delivered a full institutional warehouse with dimensional modeling and automated ETL pipelines on cloud infrastructure.
+* **Role:** Principal Data Engineer & Team Lead  
+* **Impact:** Delivered institutional warehouse with dimensional modeling and cloud ETL pipelines.
 
 ---
 
