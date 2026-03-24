@@ -1,9 +1,8 @@
-# Caelan Zhou
+# Khairunnisa Maharani
 
-### Data Engineer | AI Systems & Scalable ML Pipelines
+### Data Science Student @ ITERA | Building Scalable Data & ML Pipelines
 
-Specialized in building robust, containerized data pipelines and production-ready machine learning systems.
-Focusing on scalability, reproducibility, and clean architecture across data and AI workflows.
+Passionate about building robust, containerized data infrastructure and exploring machine learning workflows. Currently focusing on applying clean architecture, reproducibility, and scalability across data ecosystems.
 
 ---
 
