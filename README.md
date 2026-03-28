@@ -29,15 +29,15 @@ Passionate about building robust, containerized data infrastructure and explorin
 
 ---
 
-#### 🛒 [GlowCart — Real-Time E-commerce Data Platform](https://github.com/KMoex-HZ/glowcart)
+#### 🛒 [GlowCart — Production-Grade E-commerce Data Platform](https://github.com/KMoex-HZ/glowcart)
 > *Kafka | Spark | dbt | Airflow | FastAPI | DuckDB | Docker*
 
 * **Architecture:** Engineered a **real-time lakehouse data platform** using **Medallion Architecture (Bronze → Silver → Gold)** with Kafka-based streaming ingestion.
-* **Data Flow:** Streaming events → Kafka → Parquet storage → PySpark transformations → dbt models → FastAPI analytics layer → BI dashboard.
-* **Key Engineering:** Implemented **event-driven pipeline (10,000+ simulated events)**, distributed processing with Spark, and **modular SQL transformations with dbt including automated data quality tests**.
-* **Orchestration:** Designed an **Airflow DAG (6-task pipeline)** for scheduled execution and monitoring.
-* **Serving Layer:** Built analytics API with FastAPI + DuckDB powering real-time endpoints (revenue, funnel, traffic, top products).
-* **Impact:** Simulates a **production-grade Indonesian e-commerce analytics system** with full-stack ownership from ingestion to dashboard.
+* **Reliability Engineering:** Implemented **Dead Letter Queue** for corrupt event capture, **idempotency** across all pipeline steps (safe to rerun without data duplication), and a **data quality gate** at Silver layer that halts the pipeline on bad data.
+* **Data Flow:** Streaming events → Kafka (+ DLQ) → Bronze → Silver (quality gated) → Gold → FastAPI → BI Dashboard.
+* **Observability:** Replaced ad-hoc print statements with **centralized structured logging** and **GitHub Actions CI/CD** with 9 automated unit tests.
+* **Decision Documentation:** All major architectural choices documented as **Architecture Decision Records (ADRs)** — storage format, serving layer, error handling, idempotency, data quality strategy.
+* **Serving Layer:** FastAPI + DuckDB powering zero-ETL analytics endpoints (revenue, funnel, traffic, top products).
 
 ---
 
