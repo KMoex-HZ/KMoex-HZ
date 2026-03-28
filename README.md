@@ -1,88 +1,93 @@
 # Khairunnisa Maharani
 
-### Data Science Student @ ITERA | Building Scalable Data & ML Pipelines
+### Data Engineer | Building Production-Ready Data Platforms  
+Data Science Student @ ITERA
 
-Passionate about building robust, containerized data infrastructure and exploring machine learning workflows. Currently focusing on applying clean architecture, reproducibility, and scalability across data ecosystems.
+I design and build scalable, reliable data systems — from real-time streaming pipelines to batch lakehouse architectures. My focus is on production engineering practices: idempotent pipelines, data quality enforcement, fault tolerance, and reproducibility.
 
 ---
 
-### 🛠️ Core Engineering Stack
+## 🛠️ Core Engineering Stack
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Orchestration & Containerization** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Airflow](https://img.shields.io/badge/-Apache_Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white) ![Dagster](https://img.shields.io/badge/-Dagster-232F3E?style=flat&logo=dagster&logoColor=white) |
-| **Data Processing & ML** | ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![Spark](https://img.shields.io/badge/-Apache_Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white) ![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat&logo=dbt&logoColor=white) ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| **Storage, Warehouse & Cloud** | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white) ![MinIO](https://img.shields.io/badge/-MinIO-008D10?style=flat&logo=minio&logoColor=white) |
-| **Data Quality & Web** | ![Great Expectations](https://img.shields.io/badge/-Great_Expectations-FF6347?style=flat&logo=data&logoColor=white) ![Soda](https://img.shields.io/badge/-Soda_Core-FF6347?style=flat&logo=data&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.dot-js&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
+| **Data Orchestration & Infrastructure** | Docker · Apache Airflow · Dagster |
+| **Data Processing** | Apache Spark · dbt · Python · DuckDB |
+| **Streaming & Systems** | Apache Kafka |
+| **Storage & Warehouse** | PostgreSQL · MinIO (S3-compatible) · Azure |
+| **Data Quality & Observability** | Great Expectations · Soda · Structured Logging |
+| **Other** | GitHub Actions (CI/CD) · Bash |
 
 ---
 
-### 🚀 Featured Engineering Projects
+## 🚀 Featured Data Engineering Projects
 
-#### 👁️ [Quality-Aware Glaucoma Detection (IDSC 2026)](https://github.com/KMoex-HZ/IDSC2026-Mathematics-for-Hope-Glaucoma)
-> *PyTorch | EfficientNet | Medical Imaging | Docker | DVC*
+### 🛒 GlowCart — Production-Inspired E-commerce Data Platform  
+🔗 https://github.com/KMoex-HZ/glowcart  
+*Kafka · Spark · dbt · Airflow · FastAPI · Docker*
 
-* **Architecture:** Designed a **clinically-aligned deep learning pipeline** for glaucoma detection using EfficientNet with **quality-aware loss engineering** and strict **patient-level data partitioning (zero leakage)**.
-* **Key Engineering:** Implemented **custom WeightedQualityBCE loss**, CLAHE-based preprocessing in LAB color space, and full **experiment reproducibility using Docker + DVC + fixed seeds**.
-* **Impact:** Achieved **ROC-AUC 0.9801** on blind test set, exceeding benchmarks in fundus-based screening literature.
-* **MLOps Mindset:** End-to-end reproducible ML pipeline with **Grad-CAM interpretability for clinical validation**.
+Designed and implemented a **production-oriented data platform** simulating real-world e-commerce analytics with streaming ingestion and robust failure handling.
 
----
-
-#### 🛒 [GlowCart — Production-Grade E-commerce Data Platform](https://github.com/KMoex-HZ/glowcart)
-> *Kafka | Spark | dbt | Airflow | FastAPI | DuckDB | Docker*
-
-* **Architecture:** Engineered a **real-time lakehouse data platform** using **Medallion Architecture (Bronze → Silver → Gold)** with Kafka-based streaming ingestion.
-* **Reliability Engineering:** Implemented **Dead Letter Queue** for corrupt event capture, **idempotency** across all pipeline steps (safe to rerun without data duplication), and a **data quality gate** at Silver layer that halts the pipeline on bad data.
-* **Data Flow:** Streaming events → Kafka (+ DLQ) → Bronze → Silver (quality gated) → Gold → FastAPI → BI Dashboard.
-* **Observability:** Replaced ad-hoc print statements with **centralized structured logging** and **GitHub Actions CI/CD** with 9 automated unit tests.
-* **Decision Documentation:** All major architectural choices documented as **Architecture Decision Records (ADRs)** — storage format, serving layer, error handling, idempotency, data quality strategy.
-* **Serving Layer:** FastAPI + DuckDB powering zero-ETL analytics endpoints (revenue, funnel, traffic, top products).
+- **Architecture:** Real-time pipeline using **Kafka + Medallion Architecture (Bronze → Silver → Gold)**  
+- **Reliability:** Implemented **Dead Letter Queue (DLQ)** and **idempotent pipelines** (safe retries, zero duplication)  
+- **Data Quality:** Enforced **validation gates** before downstream processing  
+- **Orchestration:** Managed workflows using **Airflow DAGs with failure handling**  
+- **Serving Layer:** FastAPI + DuckDB for **zero-ETL analytics endpoints**  
+- **Engineering Practice:** Documented decisions using **Architecture Decision Records (ADR)**  
 
 ---
 
-#### 🛍️ [Modern Data Platform: Automated ELT with CI/CD](https://github.com/KMoex-HZ/modern-data-platform-dagster)
-> *Dagster | dbt Core | DuckDB | Soda Core | GitHub Actions*
-![CI/CD Pipeline](https://github.com/KMoex-HZ/modern-data-platform-dagster/actions/workflows/ci_cd.yml/badge.svg)
+### 🛍️ Modern Data Platform — Automated ELT with CI/CD  
+🔗 https://github.com/KMoex-HZ/modern-data-platform-dagster  
+*Dagster · dbt · DuckDB · Soda · GitHub Actions*
 
-* **Architecture:** Built a production-grade **Modern Data Stack (MDS)** with SCD Type 2 history tracking and strict data contracts.
-* **Key Engineering:** Fully automated CI/CD pipeline, modular transformations, and data quality enforcement.
+Built a **modern data stack (MDS)** with strong data contracts and automation.
 
----
-
-#### 🚖 [NYC Taxi End-to-End Data Pipeline](https://github.com/KMoex-HZ/nyc-taxi-pipeline-spark-airflow)
-> *Apache Spark | Apache Airflow | MinIO | PostgreSQL | Great Expectations*
-
-* **Architecture:** Engineered a scalable pipeline processing **2.9M+ records** using distributed Spark clusters.
-* **Key Engineering:** Integrated automated data validation and lakehouse ingestion flow.
+- Implemented **SCD Type 2** for historical tracking  
+- Integrated **CI/CD pipeline** for automated testing & validation  
+- Enforced **data quality checks before deployment**
 
 ---
 
-#### 🇧🇷 [Olist E-Commerce Data Warehouse](https://github.com/KMoex-HZ/olist-analytics-pipeline)
-> *dbt Core | PostgreSQL | Docker*
+### 🚖 NYC Taxi Data Pipeline  
+🔗 https://github.com/KMoex-HZ/nyc-taxi-pipeline-spark-airflow  
+*Spark · Airflow · MinIO · PostgreSQL*
 
-* **Architecture:** Developed a Star Schema warehouse for analytics-ready reporting.
-* **Key Engineering:** Modular transformations with dbt, including testing and lineage.
-
----
-
-#### 🧱 [Automated Market Data Ingestion Pipeline](https://github.com/KMoex-HZ/market-ingestion-pipeline)
-> *Docker | Apache Airflow | PostgreSQL | Python*
-
-* **Architecture:** Built a fault-tolerant ETL system for real-time ingestion.
-* **Key Engineering:** Custom DAGs with retry logic and containerized deployment.
+- Processed **2.9M+ records** using distributed Spark jobs  
+- Built **end-to-end pipeline** with automated validation  
+- Simulated **cloud data lake using MinIO (S3-compatible)**  
 
 ---
 
-#### 🏫 [LPMPP Institutional Data Warehouse](https://github.com/KMoex-HZ/LPMPP-Data-Warehouse-Project)
-> *Azure | SSIS | SQL Server*
+### 🇧🇷 Olist Data Warehouse  
+🔗 https://github.com/KMoex-HZ/olist-analytics-pipeline  
+*dbt · PostgreSQL*
 
-* **Role:** Principal Data Engineer & Team Lead  
-* **Impact:** Delivered institutional warehouse with dimensional modeling and cloud ETL pipelines.
+- Designed **star schema data warehouse**  
+- Built modular transformations with **dbt (testing + lineage)**  
 
 ---
 
-### 📊 GitHub Analytics
+### 🧱 Market Data Ingestion Pipeline  
+🔗 https://github.com/KMoex-HZ/market-ingestion-pipeline  
+*Airflow · Docker · PostgreSQL*
+
+- Developed **fault-tolerant ETL pipeline**  
+- Implemented **retry mechanisms & scheduling**
+
+---
+
+## 🧠 Additional Experience
+
+### 👁️ Glaucoma Detection (ML Pipeline)
+- Built reproducible ML pipeline with **Docker + DVC**
+- Achieved **ROC-AUC 0.9801** (IDSC 2026)
+
+> Note: Strong interest in ML systems, but primary focus on **Data Engineering & platform reliability**
+
+---
+
+## 📊 GitHub Analytics
 
 <p align="left">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KMoex-HZ&theme=radical&hide_border=true" height="150" />
