@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F72585&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Khairunnisa+Maharani+%F0%9F%91%8B;Data+Engineer+%F0%9F%8F%97%EF%B8%8F;Pipeline+Builder+%F0%9F%94%A7;Local-First+Tool+Maker+%F0%9F%A6%86" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Khairunnisa+Maharani+%F0%9F%91%8B;Data+Science+Student+%40+ITERA+%F0%9F%8E%93;Obsessed+with+Data+Engineering+%F0%9F%94%A7;Building+Real+Pipelines%2C+Not+Just+Tutorials+%F0%9F%A6%86" alt="Typing SVG" />
 
-### 🏗️ Data Engineer · Building Production-Ready Data Platforms
-**Data Science Student @ ITERA · Indonesia**
+### 📚 Data Science Student @ ITERA · Aspiring Data Engineer
+**Semester 6 · Indonesia**
 
-*I design and build scalable, reliable data systems — from real-time streaming pipelines*
-*to batch lakehouse architectures. My focus is on production engineering practices:*
-*idempotent pipelines, data quality enforcement, fault tolerance, and reproducibility.*
+*Still a student — but I build real things. I spend most of my time outside class*
+*designing data pipelines, experimenting with lakehouse architectures, and obsessing*
+*over production engineering practices: idempotent pipelines, fault tolerance, and reproducibility.*
 
 <br/>
 
@@ -15,7 +15,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMoex-HZ)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
-![Visitor Count](https://komarev.com/ghpvc/?username=KMoex-HZ&color=F72585&style=for-the-badge&label=PROFILE+VIEWS)
+![Visitor Count](https://komarev.com/ghpvc/?username=KMoex-HZ&color=00FFFF&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
@@ -215,12 +215,12 @@
 
 <div align="center">
 
-Got a pipeline to build, a platform to scale, or just want to talk data engineering?
+I'm a student actively looking for internship opportunities in Data Engineering. Always happy to connect, collaborate, or just geek out about pipelines!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khairunnisa-maharani)
 [![Email](https://img.shields.io/badge/Email-Say_Hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMoex-HZ)
 
-*Open to internship & junior Data Engineering roles · Remote friendly*
+*Semester 6 · Open to Data Engineering internships · Remote friendly*
 
 </div>
