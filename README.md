@@ -176,12 +176,6 @@
 
 ## 📊 GitHub Analytics
 
-<div align="center">
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=KMoex-HZ&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1)
-
-<br/>
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KMoex-HZ&show_icons=true&theme=radical&hide_border=true&count_private=true&hide_rank=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=KMoex-HZ&theme=radical&hide_border=true)
