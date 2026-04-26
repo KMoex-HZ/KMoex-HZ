@@ -36,6 +36,20 @@ Designed and implemented a **production-oriented data platform** simulating real
 
 ---
 
+### 🦆 [MALLARD — Local Data Warehouse & Refiner](https://github.com/KMoex-HZ/mallard)
+*DuckDB · Streamlit · Python · PyInstaller*
+
+Built a **100% local, zero-server data tool** for practitioners who want fast, offline-first data exploration without cloud lock-in or heavy BI platform overhead.
+
+- **Multi-format ingestion** — CSV, Excel (.xlsx/.xls), Parquet, JSON
+- **Auto Deep Clean** — deduplication, empty column removal, numeric & date type healing, and automatic wide-to-long pivot detection
+- **Analytics Explorer** — Histogram, Bar, Scatter, Line, Box, and Correlation Heatmap via Plotly
+- **Custom SQL** — run any DuckDB query directly against ingested tables
+- **Export** — download refined data as CSV, Excel, or Parquet
+- **Zero cloud** — data never leaves the machine; distributable as a standalone `.exe` via PyInstaller
+
+---
+
 ### 🛍️ [Modern Data Platform — Automated ELT with CI/CD](https://github.com/KMoex-HZ/modern-data-platform-dagster)
 *Dagster · dbt Core · DuckDB · Soda Core · GitHub Actions*
 
