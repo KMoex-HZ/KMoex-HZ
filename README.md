@@ -43,6 +43,25 @@
 
 ## 🚀 Featured Data Engineering Projects
 
+### 🔍 [PayStream — Real-Time Fraud Detection Lakehouse](https://github.com/KMoex-HZ/paystream)
+![Redpanda](https://img.shields.io/badge/-Redpanda-E4173B?style=flat&logoColor=white)
+![Flink](https://img.shields.io/badge/-Apache_Flink-E6526F?style=flat&logo=apache-flink&logoColor=white)
+![Iceberg](https://img.shields.io/badge/-Apache_Iceberg-3B6EA8?style=flat&logoColor=white)
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![Trino](https://img.shields.io/badge/-Trino-DD00A1?style=flat&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+> Containerized real-time fraud detection pipeline on a modern lakehouse architecture — no legacy frameworks.
+
+| Component | Implementation |
+| :--- | :--- |
+| **Stream Processing** | Apache Flink with exactly-once semantics |
+| **Message Broker** | Redpanda (Kafka-compatible, no ZooKeeper) |
+| **Table Format** | Apache Iceberg — schema evolution + time travel |
+| **Failure Handling** | DLQ, deduplication via txn_id, Flink checkpointing |
+| **Transformations** | dbt mart models (fraud_rate_daily, user_risk_score) |
+| **Query Engine** | Trino federated SQL over Iceberg |
+
 ### 🛒 [GlowCart — Production-Inspired E-commerce Data Platform](https://github.com/KMoex-HZ/glowcart)
 
 ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
