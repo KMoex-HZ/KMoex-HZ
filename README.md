@@ -28,11 +28,15 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-
 <img src="https://skillicons.dev/icons?i=python,docker,kafka,postgres,azure,bash,github,git&theme=dark&perline=8" />
 <br/>
 <img src="https://skillicons.dev/icons?i=pytorch,nextjs&theme=dark&perline=8" />
+<br/><br/>
 
+![Flink](https://img.shields.io/badge/-Apache_Flink-E6526F?style=flat&logo=apache-flink&logoColor=white)
+![Iceberg](https://img.shields.io/badge/-Apache_Iceberg-3B6EA8?style=flat&logoColor=white)
+![Redpanda](https://img.shields.io/badge/-Redpanda-E4173B?style=flat&logoColor=white)
+![Trino](https://img.shields.io/badge/-Trino-DD00A1?style=flat&logoColor=white)
 </div>
 
 <br/>
