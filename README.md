@@ -18,9 +18,7 @@
 
 ## 🔥 Currently
 
-- 🚧 **Building:** Improving [MALLARD](https://github.com/KMoex-HZ/mallard) — adding smart column profiling & export pipelines
 - 📚 **Learning:** Advanced Spark internals, Delta Lake, and data contract patterns
-- 🎯 **Goal:** Land a Data Engineering internship where I can work on real production pipelines
 - 🏆 **Recent Win:** Top 10 International Finalist at IDSC 2026 with ROC-AUC 0.9801
 
 ---
@@ -228,8 +226,6 @@ I'm a student actively looking for internship opportunities in Data Engineering.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khnrni)
 [![Email](https://img.shields.io/badge/Email-Say_Hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khrnnsmaharani@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KMoex-HZ)
-
-*Semester 6 · Open to Data Engineering internships · Remote friendly*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F77DD,100:00FFFF&height=120&section=footer" />
 
