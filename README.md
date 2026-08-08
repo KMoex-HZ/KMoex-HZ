@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,100:7F77DD&height=200&section=header&text=Khairunnisa%20Maharani&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Applied%20Data%20Scientist%20%26%20Data%20Engineer&descAlignY=55&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,100:7F77DD&height=180&section=header&text=Khairunnisa%20Maharani&fontSize=42&fontColor=ffffff&fontAlignY=45" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Nisa+%F0%9F%91%8B;Turning+Data+into+Risk+%26+Business+Decisions+%F0%9F%93%8A;Quant+%26+Credit+Risk+%7C+Applied+ML+%7C+Data+Engineering;IDSC+2026+Top+10+%7C+Pertamina+Scholar+%F0%9F%8C%8F" alt="Typing SVG" />
 
