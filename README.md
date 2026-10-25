@@ -22,7 +22,7 @@ I translate data into risk and business decisions — combining quantitative mod
 
 I'm a final-year Data Science student at **Institut Teknologi Sumatera (ITERA)** with a strong foundation in **Applied AI, Data Engineering, and Financial Analytics**, and I thrive at the intersection of predictive modeling, production architecture, and domain expertise. My experience spans:
 
-- 📈 **Quantitative & Credit Risk Analytics** — Completed a Quantitative Risk Analyst internship at **Bank Lampung** (Jun–Aug 2026), building econometric models (ARIMAX, ARDL) and macro-financial stress-testing frameworks for deposit sensitivity to US Fed Rate moves. I've also architected an end-to-end **Credit Risk Scoring Pipeline** following Basel IRB principles (PD modeling, WoE Scorecard, XGBoost, SHAP explainability), integrated with an interactive Tableau dashboard.
+- 📈 **Quantitative & Credit Risk Analytics** — Completed a Quantitative Risk Analyst internship at **Bank Lampung** (Jun–Aug 2026), modeling the impact of BI Rate on bank balance sheet components with ARDL and building recursive stress-testing scenarios. I've also architected an end-to-end **Credit Risk Scoring Pipeline** following Basel IRB principles (PD modeling, WoE Scorecard, XGBoost, SHAP explainability), integrated with an interactive Tableau dashboard.
 - 🤖 **Applied Machine Learning & AI** — Building high-performance predictive models for high-stakes use cases, from a multimodal (Audio/Visual/Text) emotion classification pipeline to a Deep Learning EfficientNet-B0 model for glaucoma detection (0.98 ROC-AUC).
 - 🛠️ **Data Engineering & Production MLOps** — Designing robust, idempotent data pipelines and production-ready deployments with Kafka, Spark, dbt, Airflow, FastAPI, Docker, MLflow, and Evidently AI for drift monitoring.
 
@@ -67,9 +67,10 @@ I'm open to **internships and entry-level roles in Data Science, Machine Learnin
 ## 📈 Quant & Credit Risk Analytics
 
 ### 🏦 Quantitative Risk Analyst Intern — PT. Bank Lampung (Jun – Aug 2026)
-- Tested **10+ ARIMAX iterations** to bring macroeconomic forecasting error (MAPE) **under 5%**, supporting liquidity planning
-- Built **macro-financial stress-testing frameworks** with 3 shock scenarios (Baseline, Adverse, Severe) to evaluate deposit sensitivity for the Asset Liability Committee
-- Formulated **ARDL models** on 5+ years of historical data to isolate seasonal anomalies and inform cash buffering against macro shocks
+- Modeled the impact of **BI Rate** on 5 balance sheet components (current accounts, savings, time deposits, total loans, profit/loss) with **ARDL** on monthly data (Mar 2021 – May 2026)
+- Selected lag structure via **BIC grid search** (35 specifications) and validated with ADF/KPSS and Breusch-Godfrey tests
+- Built **recursive forecasts for Jun–Dec 2026** under 3 BI Rate scenarios (Normal, Moderate, Worst) to support IRRBB stress testing
+- Separately, built **ARIMAX** models to forecast BI Rate using the US Fed Rate as an exogenous variable
 
 ### 💳 [Credit Risk Scoring — End-to-End ML Pipeline (Basel IRB)](https://github.com/KMoex-HZ/credit-risk-project)
 
