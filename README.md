@@ -20,36 +20,39 @@
 
 I translate data into risk and business decisions — combining quantitative modeling, applied machine learning, and scalable data infrastructure to solve problems across **Banking, FinTech, Healthcare, and Multimedia ML**.
 
-I'm a Data Science student with a strong foundation in **Applied AI, Data Engineering, and Financial Analytics**, and I thrive at the intersection of predictive modeling, production architecture, and domain expertise. My experience spans:
+I'm a final-year Data Science student at **Institut Teknologi Sumatera (ITERA)** with a strong foundation in **Applied AI, Data Engineering, and Financial Analytics**, and I thrive at the intersection of predictive modeling, production architecture, and domain expertise. My experience spans:
 
-- 📈 **Quantitative & Credit Risk Analytics** — Currently a Quantitative Risk Analyst Intern at **Bank Lampung**, building econometric models (ARIMAX, ARDL) for stress testing and balance sheet sensitivity to US Fed Rate moves. I've also architected an end-to-end **Credit Risk Scoring Pipeline** following Basel IRB principles (PD modeling, WoE Scorecard, XGBoost, SHAP explainability), integrated with an interactive Tableau dashboard.
+- 📈 **Quantitative & Credit Risk Analytics** — Completed a Quantitative Risk Analyst internship at **Bank Lampung** (Jun–Aug 2026), building econometric models (ARIMAX, ARDL) and macro-financial stress-testing frameworks for deposit sensitivity to US Fed Rate moves. I've also architected an end-to-end **Credit Risk Scoring Pipeline** following Basel IRB principles (PD modeling, WoE Scorecard, XGBoost, SHAP explainability), integrated with an interactive Tableau dashboard.
 - 🤖 **Applied Machine Learning & AI** — Building high-performance predictive models for high-stakes use cases, from a multimodal (Audio/Visual/Text) emotion classification pipeline to a Deep Learning EfficientNet-B0 model for glaucoma detection (0.98 ROC-AUC).
 - 🛠️ **Data Engineering & Production MLOps** — Designing robust, idempotent data pipelines and production-ready deployments with Kafka, Spark, dbt, Airflow, FastAPI, Docker, MLflow, and Evidently AI for drift monitoring.
 
-I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** roles across Tech, Banking, and FinTech.
+I'm open to **internships and entry-level roles in Data Science, Machine Learning, MLOps, and Data Engineering** across Tech, Banking, and FinTech.
 
 ---
 
 ## 🔥 Currently
 
-- 💼 **Interning:** Quantitative Risk Analyst @ Bank Lampung — econometric stress-testing models (ARIMAX, ARDL)
-- 📚 **Learning:** Advanced Spark internals, Delta Lake, data contract patterns, and working toward GCP Professional Data Engineer certification
-- 🏆 **Recent Win:** Top 10 International Finalist at IDSC 2026 (Ranked 9th of 189 regional teams) with ROC-AUC 0.9801
+- 🎓 **Studying:** BSc Data Science @ ITERA (GPA 3.66, graduating 2027)
+- 📚 **Learning:** Advanced Spark internals, Delta Lake, data contract patterns, and working toward the GCP Professional Data Engineer certification
+- 🏆 **Recent Win:** Top 10 International Finalist at IDSC 2026 (Ranked 9th of 189 teams) with ROC-AUC 0.9801
+- 🔎 **Looking for:** Internship / entry-level opportunities in data & risk
 
 ---
 
 ## 🛠️ Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,docker,kafka,postgres,azure,bash,github,git&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=python,docker,kafka,postgres,azure,gcp,bash,github,git&theme=dark&perline=9" />
 <br/>
-<img src="https://skillicons.dev/icons?i=pytorch,nextjs&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" />
 <br/><br/>
 
 ![Flink](https://img.shields.io/badge/-Apache_Flink-E6526F?style=flat&logo=apache-flink&logoColor=white)
 ![Iceberg](https://img.shields.io/badge/-Apache_Iceberg-3B6EA8?style=flat&logoColor=white)
 ![Redpanda](https://img.shields.io/badge/-Redpanda-E4173B?style=flat&logoColor=white)
 ![Trino](https://img.shields.io/badge/-Trino-DD00A1?style=flat&logoColor=white)
+![BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat&logo=googlebigquery&logoColor=white)
+![Dataflow](https://img.shields.io/badge/-Dataflow-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/-XGBoost-006ACC?style=flat&logoColor=white)
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
@@ -63,9 +66,10 @@ I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** role
 
 ## 📈 Quant & Credit Risk Analytics
 
-### 🏦 Quantitative Risk Analyst Intern — PT. Bank Lampung
-- Built **ARIMAX / ARDL** econometric models for stress testing and balance sheet sensitivity to US Fed Rate movements
-- Translated model outputs into decision-ready reporting for regulatory and risk-management stakeholders
+### 🏦 Quantitative Risk Analyst Intern — PT. Bank Lampung (Jun – Aug 2026)
+- Tested **10+ ARIMAX iterations** to bring macroeconomic forecasting error (MAPE) **under 5%**, supporting liquidity planning
+- Built **macro-financial stress-testing frameworks** with 3 shock scenarios (Baseline, Adverse, Severe) to evaluate deposit sensitivity for the Asset Liability Committee
+- Formulated **ARDL models** on 5+ years of historical data to isolate seasonal anomalies and inform cash buffering against macro shocks
 
 ### 💳 [Credit Risk Scoring — End-to-End ML Pipeline (Basel IRB)](https://github.com/KMoex-HZ/credit-risk-project)
 
@@ -85,7 +89,7 @@ I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** role
 | XGBoost | 0.7742 | 0.412 | SHAP |
 
 - **Anomaly detection layer** (Isolation Forest) as a data-quality signal, isolating a high-income, lower-default segment
-- Full **MLOps workflow**: MLflow experiment tracking, FastAPI serving, Docker, CI/CD via GitHub Actions
+- Full **MLOps workflow**: MLflow experiment tracking, FastAPI serving, Docker, CI/CD via GitHub Actions, Evidently AI drift monitoring
 - Interactive **Tableau dashboard** for business + analytical exploration of the model
 
 ---
@@ -134,23 +138,7 @@ I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** role
 
 ---
 
-### 🦆 [MALLARD — Local Data Warehouse & Refiner](https://github.com/KMoex-HZ/mallard)
-
-![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-
-> 100% local, zero-server data tool — drop CSV, Excel, Parquet, or JSON and let DuckDB handle the rest. No cloud, no API keys, no setup.
-
-- 🧹 **Auto Deep Clean** — deduplication, type healing, wide-to-long pivot detection
-- 📊 **Analytics Explorer** — Histogram, Bar, Scatter, Line, Box, Correlation Heatmap
-- 🖥️ **Custom SQL** — run any DuckDB query directly against ingested tables
-- 📦 **Standalone `.exe`** — distributable to Windows users with zero Python setup
-
----
-
-### 🛍️ [Modern Data Platform — Automated ELT with CI/CD](https://github.com/KMoex-HZ/modern-data-platform-dagster)
+### ⚙️ [Modern Data Platform — Automated ELT with CI/CD](https://github.com/KMoex-HZ/modern-data-platform-dagster)
 
 ![Dagster](https://img.shields.io/badge/-Dagster-232F3E?style=flat&logo=dagster&logoColor=white)
 ![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat&logo=dbt&logoColor=white)
@@ -180,6 +168,22 @@ I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** role
 - Processed **2.9M+ records** using distributed Spark clusters
 - Simulated **cloud data lake storage** using MinIO (S3-compatible)
 - Automated **data validation** with Great Expectations
+
+---
+
+### 🦆 [MALLARD — Local Data Warehouse & Refiner](https://github.com/KMoex-HZ/mallard)
+
+![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+
+> 100% local, zero-server data tool — drop CSV, Excel, Parquet, or JSON and let DuckDB handle the rest. No cloud, no API keys, no setup.
+
+- 🧹 **Auto Deep Clean** — deduplication, type healing, wide-to-long pivot detection
+- 📊 **Analytics Explorer** — Histogram, Bar, Scatter, Line, Box, Correlation Heatmap
+- 🖥️ **Custom SQL** — run any DuckDB query directly against ingested tables
+- 📦 **Standalone `.exe`** — distributable to Windows users with zero Python setup
 
 ---
 
@@ -224,11 +228,12 @@ I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** role
 ![DVC](https://img.shields.io/badge/-DVC-945DD6?style=flat&logo=dvc&logoColor=white)
 
 - **EfficientNet-B0** model for medical glaucoma detection
-- Fully reproducible pipeline with Docker + DVC + fixed seeds
-- Achieved **ROC-AUC 0.9801** on blind test set — Top 10 International Finalist, Ranked 9th of 189 regional teams
+- Fully reproducible pipeline with Docker + DVC + fixed seeds, with patient-level data splits
+- Achieved **ROC-AUC 0.9801** on a blind test set — Top 10 International Finalist, Ranked 9th of 189 teams
 
 ### 🎭 Multimodal Emotion Classification (Satria Data Semifinalist)
-- Multimodal ML pipeline combining **Audio, Visual, and Text** signals for emotion classification
+- Multimodal ML pipeline combining **Audio (Librosa), Visual (ResNet50), and Text (Whisper + IndoBERT)** signals for emotion classification
+- XGBoost + SMOTE to handle class imbalance
 - National Semifinalist (Rank 16), Satria Data: Big Data Challenge 2025
 
 > My primary focus is **Data Engineering, Quantitative Risk, and platform reliability** — ML projects demonstrate systems thinking applied across the full model lifecycle, from data to deployment.
@@ -237,18 +242,20 @@ I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** role
 
 ## 🏆 Achievements
 
-- 🌍 **International Finalist (Top 10)** — IDSC 2026, hosted by Universiti Putra Malaysia (Ranked 9th of 189 regional teams)
+- 🌍 **International Finalist (Top 10)** — IDSC 2026, hosted by Universiti Putra Malaysia (Ranked 9th of 189 teams)
 - 🇮🇩 **National Semifinalist (Rank 16)** — Satria Data: Big Data Challenge 2025
 - 🛢️ **Pertamina Sobat Bumi Scholar** — Top 2.3% from 23,313 applicants
 - ☁️ **Microsoft Azure Scholarship** Recipient
-- ☁️ **20+ Google Cloud Skill Badges** (Dataflow, BigQuery, MLOps) — working toward the **GCP Professional Data Engineer** certification
+- ☁️ **Google Cloud Skills Boost** — Professional Data Engineer learning path (Dataflow, BigQuery, MLOps badges); working toward the **GCP Professional Data Engineer** certification
 - 📄 **SINTA 2 Published Researcher** — AI-Based Website Development Training
-- 🥇 Gold Medal, National English Competition
-- 🥈 Silver Medal, National Mathematics Competition
+- 🥇 Gold Medal, National English Competition (KSPI 2024)
+- 🥈 Silver Medal, National Mathematics Competition (KSPI 2024)
 
 ---
 
 ## 📊 GitHub Analytics
+
+<div align="center">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KMoex-HZ&show_icons=true&theme=radical&hide_border=true&count_private=true&hide_rank=true)
 
@@ -274,7 +281,7 @@ I'm open to **Data Science, Machine Learning, MLOps, and Data Engineering** role
 
 <div align="center">
 
-Open to **Data Science, Machine Learning, MLOps, and Data Engineering** roles across Tech, Banking, and FinTech. Always happy to connect, collaborate, or geek out about risk models and pipelines!
+Open to **internships and entry-level roles in Data Science, Machine Learning, MLOps, and Data Engineering** across Tech, Banking, and FinTech. Always happy to connect, collaborate, or geek out about risk models and pipelines!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khnrni)
 [![Email](https://img.shields.io/badge/Email-Say_Hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khrnnsmaharani@gmail.com)
